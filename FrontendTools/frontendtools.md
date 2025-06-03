@@ -1,11 +1,11 @@
-#H1 - Creating Pages
-These use XML format to emulate HTML. this allows you to create new pages to 
-#H2 - Adding Builetans
+# Creating Pages
 
-| Tag | function |
-|----------|----------|
-| <xpos>| x positon, on a vertical access|
-| <ypos>| y position|
-| <name> | name of builetin in sql|
+These use XML format to emulate HTML. This allows you to create new pages.
 
+## Adding Bulletins
 
+| Tag     | Function                                |
+|---------|-----------------------------------------|
+| `<xpos>` | X position, on a horizontal axis        |
+| `<ypos>` | Y position                               |
+| `<name>` | Name of bulletin in SQL                 |
