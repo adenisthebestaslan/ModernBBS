@@ -15,5 +15,14 @@ before putting it in a <chatroom>
 
 ## Adding Images
 
-First, put it inside of a images tag
+First, put it inside of a <images> tag.
+you then put a image tag before 
+adding x,y, and path
+
+
+| Tag     | Function                                |
+|---------|-----------------------------------------|
+| `<xpos>` | X position, on a horizontal axis, takes numbers only.   |
+| `<ypos>` | Y position                               |
+| `<path>` | the path to access the image|
 
