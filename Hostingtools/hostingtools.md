@@ -46,7 +46,7 @@ now that you know how to use it, lets see how it works.
 
 ## How Hostingsetup.PY WORKS:
 
-### 1: login(configfile)
+###login(configfile)
  first, it attempts to try to find each peice of data from the config file [look at this here.](#Setting-up-a-Configfile)
 
     try:
@@ -77,8 +77,8 @@ then it connects.
         raise ConnectionError(f"Failed to connect to the database: {e}") from e
 
    ### Createchat():
-      first, it gets the config file before using login [look at this here.](### 1:-login(configfile))
-      it makes a table with id, username, and message, with the name you specified in table_messages_name
+   first, it gets the config file before using login [look at this here.](###login(configfile))
+   it makes a table with id, username, and message, with the name you specified in table_messages_name
               
               create_table_sql = sql.SQL("""
         CREATE TABLE IF NOT EXISTS {table} (
