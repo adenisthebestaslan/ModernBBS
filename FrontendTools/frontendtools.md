@@ -1,4 +1,4 @@
-#H1  - Creating Pages
+#H1 - Creating Pages
 These use XML format to emulate HTML. this allows you to create new pages to 
 #H2 - Adding Builetans
 
