@@ -88,4 +88,35 @@ then it connects.
         );
 
 
-# grabbing the messages,
+# grabbing the messages 
+
+ChatinfoBBS(configfile,BulietenName):
+this function is used in the Assembler
+
+
+
+## table
+
+| Tag's         | use
+| ------------- | ------------- |
+| Configfile |  uses this to access your credentials|
+| BulietenName  |used to access the table|
+
+## how it works
+parse the tree and   [login.](###login(configfile))
+
+
+    def ChatinfoBBS(configfile,BulietenName):
+       # Function to fetch recent items from a specified page in the database
+       tree = ET.parse(r"C:\Users\adena\OneDrive\Desktop\Python Projects\ModernBBS\hostsetup\configfile.xml")
+       # Parse the XML configuration file
+       configfile = tree.getroot()
+       #get the root of the xml file and use that to login
+       conn = login(configfile)
+
+after wards, get the number of rows.
+
+    cur.execute(f"SELECT COUNT(*) FROM {BulietenName};")
+    #select amount from page 
+    row_count = cur.fetchone()[0]
+    # get row number
