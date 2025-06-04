@@ -176,3 +176,24 @@ it makes a list of items to be shown in the gui:
 # Submitmessage.py
 ## Submitchatroom()
 Submitchatroom(username, message, Configfile, ChatroomName)
+
+### arguments and uses
+
+
+| Tag's         | use
+| ------------- | ------------- |
+| username |  the username of the person submitting the message.|
+| message  |what the user has entered|
+|configfile| grabs the config file|
+|ChatroomName| the name of the chatroom|
+
+### how it works.
+
+first, it parses the config file and then logs in 
+
+    print("Submitting chatroom message...")
+    import xml.etree.ElementTree as ET
+    from hostsetup.hostsetup import login
+    tree = ET.parse(Configfile)
+    configfile_root = tree.getroot()
+    conn = login(configfile_root)
