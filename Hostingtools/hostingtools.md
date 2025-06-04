@@ -147,5 +147,31 @@ else, it shows the last 10.
     else:
         print(f"Table '{BulietenName}' contains no rows.")
         return []
+
+
+it makes a list of items to be shown in the gui:
+
+    recent_items = cur.fetchall()
+    print(f"Recent items: {recent_items}")
+    #print recent items
+    messages = []
+    # Print results
+    numbermessages = 0
+    print(f"Number of messages:{numbermessages}")
+    for item in recent_items:
+        print(item)
+        print(numbermessages)
+        messages.append(item)
+        #append item to messages
+        numbermessages += 1
+    print(messages)
     
 
+    cur.close()
+    conn.close()
+
+    return messages
+
+
+#Submitmessage.py
+##Submitchatroom(username, message, Configfile, ChatroomName)
