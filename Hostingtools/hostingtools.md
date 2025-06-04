@@ -173,5 +173,6 @@ it makes a list of items to be shown in the gui:
     return messages
 
 
-#Submitmessage.py
-##Submitchatroom(username, message, Configfile, ChatroomName)
+# Submitmessage.py
+## Submitchatroom()
+Submitchatroom(username, message, Configfile, ChatroomName)
