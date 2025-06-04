@@ -120,3 +120,32 @@ after wards, get the number of rows.
     #select amount from page 
     row_count = cur.fetchone()[0]
     # get row number
+afterwards, if you have lesss than 10 messages, it shows all the messages by ascending order.
+
+if it is more than 10, it shows the last 10.
+else, it shows the last 10.
+
+    if row_count < 10:
+         print(f"Table '{BulietenName}' contains less than 10 rows: {row_count}")
+
+        cur.execute(f"""
+        SELECT * FROM {BulietenName}
+        ORDER BY username ASC
+        LIMIT {row_count}
+        """)
+        #order by username and ascending order, limit by row count
+        print(f"Table '{BulietenName}' contains less than 10 rows: {row_count}")
+    elif row_count >= 10:
+        print(f"Table '{BulietenName}' contains 10 or more rows: {row_count}")
+        cur.execute(f"""
+        SELECT * FROM {BulietenName}
+        ORDER BY username ASC
+        LIMIT 10;
+        """)
+        #order by username and ascending order, limit by 10
+    #order by username and limit to 10    
+    else:
+        print(f"Table '{BulietenName}' contains no rows.")
+        return []
+    
+
