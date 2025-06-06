@@ -19,7 +19,9 @@ First, put it inside of a <images> tag.
 you then put a image tag before 
 adding x,y, and path
 
-
+## Adding Backgrounds
+### Background Colours.
+ 
 | Tag     | Function                                |
 |---------|-----------------------------------------|
 | `<xpos>` | X position, on a horizontal axis, takes numbers only.   |
