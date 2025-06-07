@@ -24,7 +24,4 @@ adding x,y, and path
  
 | Tag     | Function                                |
 |---------|-----------------------------------------|
-| `<xpos>` | X position, on a horizontal axis, takes numbers only.   |
-| `<ypos>` | Y position                               |
-| `<path>` | the path to access the image|
-
+| `<colour>` |sets colour|
