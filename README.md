@@ -1,4 +1,4 @@
-
+(sorry, i couldnt do issue saturday)
 #What is this?
 ## Origins
 the BBS's were ways to interact fro early computer nerds before discord. They had games, images, and chatting services.
