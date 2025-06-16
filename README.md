@@ -1,5 +1,7 @@
 (sorry, i couldnt do issue saturday)
-#What is this?
+# notice!
+I will be taking a break for my birthday, so dont expect any updates until wensday-friday.
+# What is this?
 ## Origins
 the BBS's were ways to interact fro early computer nerds before discord. They had games, images, and chatting services.
 They were hosted on some dudes computer in his basement.
