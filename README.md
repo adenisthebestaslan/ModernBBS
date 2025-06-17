@@ -1,6 +1,6 @@
 (sorry, i couldnt do issue saturday)
 # notice!
-I will be taking a break for my birthday, so dont expect any updates until wensday-friday.
+I will be taking a break from MY CURRENT PROJECT(this repository)  for  my birthday, so dont expect any updates until wensday-friday.
 # What is this?
 ## Origins
 the BBS's were ways to interact fro early computer nerds before discord. They had games, images, and chatting services.
