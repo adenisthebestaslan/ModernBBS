@@ -1,0 +1,3 @@
+import subprocess
+process1 = subprocess.Popen(["python", r"hostsetup\downloading.py"])
+process2 = subprocess.Popen(["python", "Bulitenassembler.py"])
