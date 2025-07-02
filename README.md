@@ -14,5 +14,4 @@ What I liek to cal issue saturday is the day where i resolve issues in the issue
 
 ## 0.2-0.4
 0.3 - dark themes and file sharing
-0.4 - coustom themes and emoji's
-0.5 a way to connect to BBS'S and install data
+0.4+0.5 - coustom themes + a way to connect to BBS'S and install data
